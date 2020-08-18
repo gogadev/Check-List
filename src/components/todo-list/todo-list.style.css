@@ -1,0 +1,79 @@
+.todo-list {
+  display: grid;
+  width: 95vw;
+  background: rgba(231, 231, 231, 0.822);
+  justify-content: center;
+  justify-items: center;
+  gap: 1.5rem;
+  margin: 3.5rem auto;
+  padding: 1rem;
+}
+
+.item {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+span.complete {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.button {
+  cursor: pointer;
+  transition: 1.5s ease;
+  border: none;
+  font-size: 1rem;
+  margin-left: 1rem;
+  outline: lightgrey;
+}
+
+.button:hover {
+  letter-spacing: 3px;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  cursor: pointer;
+  right: 1rem;
+}
+
+input[type="checkbox"]:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0;
+  left: 0;
+  border: 1px dotted #555555;
+  border-radius: 3px;
+  background-color: white;
+}
+
+input[type="checkbox"]:checked:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 8px;
+  border: 1px solid grey;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 2px;
+  left: 6px;
+}
+
+.empty-list {
+  width: 90vw;
+  color: grey;
+  letter-spacing: 3px;
+  font-weight: 100;
+  text-transform: capitalize;
+  outline: 1px solid lightgrey;
+  outline-offset: -5px;
+  padding: 0.8rem;
+  text-align: center;
+}

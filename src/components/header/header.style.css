@@ -1,0 +1,23 @@
+header {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.header-img {
+  width: 90vw;
+  background: whitesmoke;
+}
+
+.image {
+  width: 10%;
+  padding: 0.5rem;
+}
+
+.title {
+  width: 100%;
+  border-bottom: 4px solid rgba(211, 211, 211, 0.836);
+  letter-spacing: 3px;
+}

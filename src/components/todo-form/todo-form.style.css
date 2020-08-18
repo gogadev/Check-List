@@ -1,0 +1,35 @@
+.form {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 1rem;
+  margin: 1.5rem auto;
+}
+
+.form input {
+  width: 60vw;
+  font-size: 1.3rem;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: lightgrey;
+}
+
+.img {
+  width: 10%;
+}
+
+.btn {
+  padding: 0.2rem 0.5rem;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  border: 1px dotted grey;
+  cursor: pointer;
+  transition: all 1s ease;
+  outline: lightgrey;
+}
+
+.btn:hover {
+  transform: translateY(1rem);
+}
